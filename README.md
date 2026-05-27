@@ -39,6 +39,31 @@ To compile and run this project locally, you need a C++ compiler installed on yo
 
 ### Installation & Execution
 
-1. **Clone the repository:**
-```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+**Step 1:** Clone the repository using git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git to pull the project files to your machine.
+**Step 2:** Navigate into the project folder by running cd YOUR_REPOSITORY_NAME to switch your working directory.
+**Step 3:** Compile the C++ source code by executing g++ -O3 main.cpp -o hospital_system to build the optimized executable.
+**Step 4:** Launch the application by running ./hospital_system to open the interactive command-line interface.
+
+## System Preview & Menu Structure
+
+====== Hospital Management System ======
+1. Add Patient
+2. View Patients
+3. Search Patient
+4. Update Patient
+5. Delete Patient
+6. Billing
+7. Book Appointment
+8. Reschedule Appointment
+9. Exit
+Enter choice:
+
+## Data Schema Representation
+
+Field      Data Type      Description
+id         int            Auto-generated sequential tracking identifier
+name       string         Full name of the patient (spaces supported)
+age        int            Age tracking for demographic distribution
+doctor     string         Assigned primary healthcare physician
+date       string         Target reservation schedule (DD-MM-YYYY)
+time       string         Target reservation timeframe (HH:MM)
