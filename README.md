@@ -60,10 +60,10 @@ Enter choice:
 
 ## Data Schema Representation
 
-Field      Data Type      Description
-id         int            Auto-generated sequential tracking identifier
-name       string         Full name of the patient (spaces supported)
-age        int            Age tracking for demographic distribution
-doctor     string         Assigned primary healthcare physician
-date       string         Target reservation schedule (DD-MM-YYYY)
-time       string         Target reservation timeframe (HH:MM)
+1. Field      Data Type      Description
+2. id         int            Auto-generated sequential tracking identifier
+3. name       string         Full name of the patient (spaces supported)
+4. age        int            Age tracking for demographic distribution
+5. doctor     string         Assigned primary healthcare physician
+6. date       string         Target reservation schedule (DD-MM-YYYY)
+7. time       string         Target reservation timeframe (HH:MM)
