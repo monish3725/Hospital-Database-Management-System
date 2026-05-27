@@ -39,10 +39,10 @@ To compile and run this project locally, you need a C++ compiler installed on yo
 
 ### Installation & Execution
 
-**Step 1:** Clone the repository using git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git to pull the project files to your machine.
-**Step 2:** Navigate into the project folder by running cd YOUR_REPOSITORY_NAME to switch your working directory.
-**Step 3:** Compile the C++ source code by executing g++ -O3 main.cpp -o hospital_system to build the optimized executable.
-**Step 4:** Launch the application by running ./hospital_system to open the interactive command-line interface.
+1. **Step 1:** Clone the repository using git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git to pull the project files to your machine.
+2. **Step 2:** Navigate into the project folder by running cd YOUR_REPOSITORY_NAME to switch your working directory.
+3. **Step 3:** Compile the C++ source code by executing g++ -O3 main.cpp -o hospital_system to build the optimized executable.
+4. **Step 4:** Launch the application by running ./hospital_system to open the interactive command-line interface.
 
 ## System Preview & Menu Structure
 
